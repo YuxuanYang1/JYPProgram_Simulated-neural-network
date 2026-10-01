@@ -2,7 +2,7 @@ import json
 import re
 
 # 1. 读 JSON
-with open("唐诗三百首.json", "r", encoding="utf-8") as f:
+with open("poems.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
 print(f"读入 {len(data)} 首诗")
