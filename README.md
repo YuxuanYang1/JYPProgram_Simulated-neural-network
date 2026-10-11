@@ -1,17 +1,17 @@
 # JYPProgram_Simulated-neural-network
 一些模拟神经网络
 
-*XORm：** <br/>
+**XORm：** <br/>
 *V0.0* <br/>
 这个模型可以进行XOR逻辑学习 <br/>
-用以下代码替换 <br/>
+用以下代码替换X&Y <br/>
 AND 门 <br/>
 X = [[0,0],[0,1],[1,0],[1,1]] <br/>
 Y = [[0],[0],[0],[1]] <br/>
 OR 门 <br/>
 Y = [[0],[1],[1],[1]] <br/>
 
-*engcwm：** <br/>
+**engcwm：** <br/>
 *V0.0* <br/>
 它会试图理解如何写出正确的单词 <br/>
 
