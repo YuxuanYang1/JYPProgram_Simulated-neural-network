@@ -1,0 +1,3 @@
+python -m nuitka --standalone --windows-console-mode=disable --enable-plugin=pyqt5 --include-package=PyQt5 --include-package=numpy --nofollow-import-to=matplotlib --assume-yes-for-downloads --include-module=ecnm --include-module=blom --include-module=mte --include-module=mtl --include-module=mwe --include-module=mwl --include-module=mwp main.py
+
+pyinstaller --onedir --windowed --noupx --name main --add-data "names.txt;." --add-data "poems.txt;." --hidden-import=ecnm --hidden-import=blom --hidden-import=mte --hidden-import=mtl --hidden-import=mwe --hidden-import=mwl --hidden-import=mwp main.py
